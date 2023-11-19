@@ -1,4 +1,4 @@
-package org.test.insurance_project;
+package org.test.insurance;
 
 import java.io.File;
 import java.io.IOException;

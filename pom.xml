@@ -5,10 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.test</groupId>
-  <artifactId>insurance-project</artifactId>
+  <artifactId>insurance</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-  <name>insurance-project</name>
+  <name>insurance</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -49,7 +49,7 @@
   </dependencies>
 
   <build>
-	  <finalName>insurance-project</finalName>
+	  <finalName>insurance</finalName>
 	  <plugins> 
     <plugin>
                <artifactId>maven-assembly-plugin</artifactId>
@@ -60,7 +60,7 @@
                    </descriptorRefs>
                    <archive>
                        <manifest>
-                           <mainClass>org.test.insurance-project.App</mainClass>
+                           <mainClass>org.test.insurance.App</mainClass>
                        </manifest>
                    </archive>
                </configuration>
