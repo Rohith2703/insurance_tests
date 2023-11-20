@@ -25,7 +25,7 @@ public class App
 
     //setting properties
     ChromeOptions chromeOptions = new ChromeOptions();
-	chromeOptions.addArguments("--headless", "--no-sandbox");
+	chromeOptions.addArguments("--headless");
     // open url
     System.out.println("Driver opening up the url in browser");	
     WebDriver driver = new ChromeDriver(chromeOptions);
